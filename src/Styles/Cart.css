@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Agency FB Cyrillic';
+    src: url('../assets/fonts/agencyfbcyrillic.woff2') format('woff2'),
+         url('../assets/fonts/agencyfbcyrillic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .cart-image {
+    opacity: 0.5; /* Полупрозрачное изображение */
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-message {
+    font-family: 'Agency FB Cyrillic', sans-serif; /* Применение шрифта */
+    font-size: 14px;
+    color: #333;
+  }
+  

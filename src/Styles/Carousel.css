@@ -1,0 +1,47 @@
+.carousel {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 0 10px; /* Отступы справа и слева */
+  box-sizing: border-box;
+  position: relative; /* Для абсолютного позиционирования индикаторов */
+  margin-top: 10px; /* Добавляем верхний отступ */
+}
+
+.carousel-slide {
+  padding: 0 2.5px; /* Половина отступа с каждой стороны для равномерного распределения */
+  box-sizing: border-box;
+}
+
+.carousel-slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px; /* Расположите индикаторы внизу изображения */
+  width: auto;
+  display: flex;
+  transform: translateY(-35px);
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+}
+
+.slick-dots li {
+  margin: 0 5px; /* Отступ между точками */
+}
+
+.slick-dots li button:before {
+  font-size: 14px;
+  color: #fff;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+  opacity: 1;
+}
